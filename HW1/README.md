@@ -14,4 +14,8 @@ In order to make the `bootstrap.sh` I used Visual Studio and created it there in
 
 After using the `vagrant init` command to start the VM and create the machine I used the `nano` command in order to configure it to the specs within the tutorial. I then used `vagrant reload` to relauch the VM. When I did this it launched my `bootstrap.sh`. This should install Apache2 onto the VM and have access to the files within the established vagrant folder. 
 
-After using `vagrant ssh` to get into the created VM you have to cd around. For my machine the path was `~/var/www/html`. When I accessed this folder it showed everything that was in my html folder on my home system. From here in order to get the system properly set up I had to check/fix the DocumentRoot via `nano /etc/apache2/sites-available/000-default.conf`
+After using `vagrant ssh` to get into the created VM you have to cd around. For my machine the path was `~/var/www/html`. When I accessed this folder it showed everything that was in my html folder on my home system. From here in order to get the system properly set up I had to check/fix the DocumentRoot via `nano /etc/apache2/sites-available/000-default.conf` to make sure that the .html file which we were given can be used as the `index.html`.
+
+## Configure the Network Tutorial Walktrough
+
+This builds off of the previous tutorial. First thing that I did was edit the `bootstrap.sh` and added this line of code at the bottom of it: `config.vm.network :forwarded_port, guest: 80, host: 4567`.
