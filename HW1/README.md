@@ -18,4 +18,8 @@ After using `vagrant ssh` to get into the created VM you have to cd around. For 
 
 ## Configure the Network Tutorial Walktrough
 
-This builds off of the previous tutorial. First thing that I did was edit the `bootstrap.sh` and added this line of code at the bottom of it: `config.vm.network :forwarded_port, guest: 80, host: 4567`. 
+This builds off of the previous tutorial. First thing that I did was edit the `bootstrap.sh` and added this line of code at the bottom of it: `config.vm.network :forwarded_port, guest: 80, host: 4567`. From there I used `vagrant reload` again and it allowed the edits I made to `bootstrap.sh` get added to the VM. From there I accessed the website successfully. 
+
+## Vagrant Provisoner: Docker
+
+Vagrant provisioner Docker is a powerful tool that facilitates the seamless integration of Docker containers within Vagrant-managed virtual environments. Leveraging Docker's containerization technology, Vagrant provisioner Docker allows developers to define and configure containerized services alongside their VM setups using a Vagrantfile. This provisioning method typically employs Dockerfile and Compose file formats to specify container images, dependencies, and networking configurations. By seamlessly merging the worlds of virtual machines and containers, Vagrant provisioner Docker simplifies the development process, enhancing portability, scalability, and reproducibility while reducing the complexities associated with traditional VM provisioning and management. Key terms associated with this technology include Vagrant, Docker, Dockerfile, Compose, virtualization, provisioning, and containerization.
