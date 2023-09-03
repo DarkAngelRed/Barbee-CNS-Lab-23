@@ -18,4 +18,4 @@ After using `vagrant ssh` to get into the created VM you have to cd around. For 
 
 ## Configure the Network Tutorial Walktrough
 
-This builds off of the previous tutorial. First thing that I did was edit the `bootstrap.sh` and added this line of code at the bottom of it: `config.vm.network :forwarded_port, guest: 80, host: 4567`.
+This builds off of the previous tutorial. First thing that I did was edit the `bootstrap.sh` and added this line of code at the bottom of it: `config.vm.network :forwarded_port, guest: 80, host: 4567`. 
