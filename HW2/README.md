@@ -15,7 +15,7 @@ My first container that I found that looked fun is Monica. Monica is a relations
     DB_USERNAME: The username to connect to the database.
     DB_PASSWORD: The password to authenticate with the database.
 
-The second container I found was for Composer
+The second container I found was for Composer 
 
 ## Docker Usage for Docker-Compose 
 I ended up using Amazon Webserver Linux. This is ran by the Amazon Linux team
