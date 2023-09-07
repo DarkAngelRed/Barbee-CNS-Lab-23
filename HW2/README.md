@@ -15,7 +15,24 @@ My first container that I found that looked fun is Monica. Monica is a relations
     DB_USERNAME: The username to connect to the database.
     DB_PASSWORD: The password to authenticate with the database.
 
-The second container I found was for Composer 
+The second container I found was for ghost. ghost is ran by an organization creatively named Ghost. Options/things that you can specify include:
+Environment Variables:
+
+NODE_ENV: Sets the environment mode (e.g., development, production).
+url: Specifies the URL of your Ghost blog.
+database__client: Defines the database client (e.g., sqlite3, mysql, postgres).
+database__connection__host: Specifies the database host.
+database__connection__user: Sets the database username.
+database__connection__password: Sets the database password.
+database__connection__database: Specifies the database name.
+Many other environment variables are available to configure various aspects of Ghost.
+Ports: You can expose specific ports when running the container. By default, Ghost uses port 2368, but you can map it to a different port on your host system.
+
+Volumes: You can mount volumes to store persistent data such as custom themes, content, and configuration.
+
+Network Configuration: You can specify network configurations if needed.
+
+As for the uniqueness of the container Ghost is a free and open source blogging platform written in JavaScript. The intent of it is to be used by individual bloggers and maybe even publicatiosn. 
 
 ## Docker Usage for Docker-Compose 
 
