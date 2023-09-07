@@ -18,14 +18,15 @@ My first container that I found that looked fun is Monica. Monica is a relations
 The second container I found was for ghost. ghost is ran by an organization creatively named Ghost. Options/things that you can specify include:
 Environment Variables:
 
-NODE_ENV: Sets the environment mode (e.g., development, production).
-url: Specifies the URL of your Ghost blog.
-database__client: Defines the database client (e.g., sqlite3, mysql, postgres).
-database__connection__host: Specifies the database host.
-database__connection__user: Sets the database username.
-database__connection__password: Sets the database password.
-database__connection__database: Specifies the database name.
-Many other environment variables are available to configure various aspects of Ghost.
+    NODE_ENV: Sets the environment mode (e.g., development, production).
+    url: Specifies the URL of your Ghost blog.
+    database__client: Defines the database client (e.g., sqlite3, mysql, postgres).
+    database__connection__host: Specifies the database host.
+    database__connection__user: Sets the database username.
+    database__connection__password: Sets the database password.
+    database__connection__database: Specifies the database name.
+    Many other environment variables are available to configure various aspects of Ghost.
+    
 Ports: You can expose specific ports when running the container. By default, Ghost uses port 2368, but you can map it to a different port on your host system.
 
 Volumes: You can mount volumes to store persistent data such as custom themes, content, and configuration.
