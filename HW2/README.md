@@ -18,4 +18,8 @@ My first container that I found that looked fun is Monica. Monica is a relations
 The second container I found was for Composer 
 
 ## Docker Usage for Docker-Compose 
-I ended up using Amazon Webserver Linux. This is ran by the Amazon Linux team
+
+
+## Proof of complete lab
+For some reason the ip address of the attacker was not working so I used one within the same subnet
+!(HW2/Screenshot 2023-09-06 221207.png)
