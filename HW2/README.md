@@ -23,4 +23,4 @@ The second container I found was for Composer
 ## Proof of complete lab
 For some reason the ip address of the attacker was not working so I used one within the same subnet
 
-![Finished lab]([HW2/Screenshot 2023-09-06 221207.png](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW2/Screenshot%202023-09-06%20221207.png)
+![Finished lab]([HW2/Screenshot 2023-09-06 221207.png](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW2/Screenshot%202023-09-06%20221207.png))
