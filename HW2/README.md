@@ -36,7 +36,7 @@ Network Configuration: You can specify network configurations if needed.
 As for the uniqueness of the container Ghost is a free and open source blogging platform written in JavaScript. The intent of it is to be used by individual bloggers and maybe even publicatiosn. 
 
 ## Docker Usage for Docker-Compose 
-
+For 
 
 ## Proof of complete lab
 For some reason the ip address of the attacker was not working so I used one within the same subnet
