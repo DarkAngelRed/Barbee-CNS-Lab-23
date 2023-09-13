@@ -19,6 +19,7 @@ From there I logged into my D2L and went into the HW document in order to get to
 – Run it! sudo ./cscc
 ````
 ## SSC Tool results
+![Finished lab](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW2/Screenshot%202023-09-06%20221207.png)
 
 - What was the overall score?
 - How many controls failed vs passed?
