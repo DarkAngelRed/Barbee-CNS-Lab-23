@@ -18,3 +18,8 @@ From there I logged into my D2L and went into the HW document in order to get to
 – Enable the one desired benchmark: sudo ./cscc -eb RHEL_8_STIG
 – Run it! sudo ./cscc
 ````
+## SSC Tool results
+
+- What was the overall score?
+- How many controls failed vs passed?
+- How many CAT I’s where there?
