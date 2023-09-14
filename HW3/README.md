@@ -23,4 +23,5 @@ From there I logged into my D2L and went into the HW document in order to get to
 
 - What was the overall score?
 - How many controls failed vs passed?
+
 - How many CAT I’s where there?
