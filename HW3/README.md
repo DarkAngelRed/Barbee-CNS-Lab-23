@@ -24,4 +24,5 @@ From there I logged into my D2L and went into the HW document in order to get to
 - What was the overall score?
 - How many controls failed vs passed?
 ![Score for lab results](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW3/Score.png)
+
 - How many CAT I’s where there?
