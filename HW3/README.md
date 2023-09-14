@@ -27,4 +27,4 @@ From there I logged into my D2L and went into the HW document in order to get to
 ![Score for lab results](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW3/Score.PNG)
 
 - How many CAT I’s where there?
-![Sad Cats](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW3/Score.PNG)
+![Sad Cats](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW3/CAT1.PNG)
