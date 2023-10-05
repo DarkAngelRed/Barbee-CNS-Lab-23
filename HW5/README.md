@@ -19,7 +19,7 @@ Pictures above are porof of my completion of Red Hat Academy Chapter 10 and asso
 ![Key Gen](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW5/Key-gen.png)
 ![Key Setup and Use](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW5/key-use.png)
 
-Proof that I generated a key pair and pushed it to my jumpbox for easy login. 
+Proof that I generated a key pair and pushed it to my jumpbox for easy login. I had to pipe a `cat` coomand which grabs the public key into an `ssh` command which connects to the jumpbox and creates a directory where the key will be stored. 
 
 ## Section 4
 ![Pass Change](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW5/password_change.png)
