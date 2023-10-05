@@ -24,3 +24,5 @@ Proof that I generated a key pair and pushed it to my jumpbox for easy login. I 
 ## Section 4
 ![Pass Change](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW5/password_change.png)
 ![Hydra results](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW5/Hydra.PNG)
+
+Here is proof I completed section 4. I changed the password to `starwars` which is a password on the list which jumped out to me. I then used the Ubuntu subsystem on my cadet laptop and downloaded `hydra` there by using `sudo apt-get install hydra`. From there I ran the command `hydra` to figure out formatting which is how I was able to run the command in the second screenshot after connecting to my NUC via a hotspot.
