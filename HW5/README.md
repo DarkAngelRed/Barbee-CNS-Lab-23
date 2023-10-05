@@ -22,4 +22,5 @@ Pictures above are porof of my completion of Red Hat Academy Chapter 10 and asso
 Proof that I generated a key pair and pushed it to my jumpbox for easy login. 
 
 ## Section 4
+![Pass Change](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW5/password_change.png)
 ![Hydra results](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW5/Hydra.PNG)
