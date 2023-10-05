@@ -15,7 +15,7 @@ Computer and Network Security
 ## Section 3
 
 ![Key Gen](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW5/key-gen.png)
-![Key Setup and Use](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW5/key-use.png)
+![Key Setup and Use](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW5/Key-use.png)
 
 ## Section 4
-![Hydra results](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW5/hydra.png)
+![Hydra results](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW5/hydra.PNG)
