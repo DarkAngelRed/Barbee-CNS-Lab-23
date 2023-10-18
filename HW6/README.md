@@ -25,3 +25,5 @@ This event includes:
 - special principle SIDs the user has in their user token such as INTERACTIVE or NETWORK depending on type of logon. AKA Well Known SIDs
 
 ## input.conf file
+
+![SS number 1](https://github.com/DarkAngelRed/Barbee-CNS-Lab-23/blob/main/HW6/snickerdoodle_wineventlog_conf.png)
