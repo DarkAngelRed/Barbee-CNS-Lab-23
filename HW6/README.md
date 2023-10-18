@@ -16,4 +16,12 @@ The training extended beyond theory to include practical exercises and hands-on 
 
 ## Excluding stuff from Windows Event ID
 
+I chose to excluse Windows Security Event ID number 4672. This is the code for group membership information. The reason I chose to exclude it is because it should only be the members of the group called group3 and with our current instructions we have this shouldn't change for a while and this would be redundant information. 
+This event includes:
+
+- the local groups on that computer to which the user belongs
+- domain groups to which the user belongs
+- all groups, including groups the user is a member of by virtue of nested group membership
+- special principle SIDs the user has in their user token such as INTERACTIVE or NETWORK depending on type of logon. AKA Well Known SIDs
+
 ## input.conf file
