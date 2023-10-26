@@ -4,18 +4,10 @@
 
 Computer and Network Security
 
-## DDL Hiijacking
+## NoSQL Injections for Rocket Chat
 
-DDL (Data Definition Language) preload attacks are a type of cyberattack that target a database management system (DBMS) by exploiting vulnerabilities in the database's DDL statements. DDL statements are used to define and manage the structure of a database, including creating, altering, and deleting tables, indexes, and other database objects.
+NoSQL Injection is a type of attack that targets NoSQL databases, which are a class of databases that use a different data model than traditional relational databases. 
 
-DDL statements are SQL commands used to create, modify, or delete database objects. These statements are typically executed by database administrators to define the schema and structure of the database. In a DDL preload attack, the attacker tries to insert malicious code into the database using DDL statements. They often attempt to modify existing DDL statements or add new ones to manipulate the database structure to their advantage.
+Just like in SQL Injection, NoSQL Injection starts with user input. This input can come from web forms, API requests, or any place where the application interacts with a database. The attacker provides input that contains malicious characters or payloads that are designed to manipulate the NoSQL query. The application uses the user input to build a query that is then sent to the NoSQL database. If the input is not properly sanitized and validated, it may be included directly in the query.
 
-The attacker's goal in a DDL preload attack may vary, but common objectives include:
-
-- Gaining unauthorized access to sensitive data.
-- Corrupting or deleting critical data.
-- Escalating privileges to gain administrative control over the database.
-- Creating backdoors for future attacks.
-- Exploiting vulnerabilities in the database system.
-
-DDL preload attacks typically target known vulnerabilities in the DBMS, often taking advantage of misconfigurations, weak access controls, or other security weaknesses. These vulnerabilities can be in the DBMS software itself or in applications that interact with the database. Attackers may use injection techniques similar to SQL injection attacks. They input malicious DDL statements into user input fields, forms, or application parameters to execute their code within the database.
+By carefully crafting the input, an attacker can modify the query in such a way that it may reveal sensitive data, bypass authentication, or perform unauthorized actions on the database. NoSQL databases are particularly susceptible to this type of attack because they often use non-structured query languages like JSON or BSON.
