@@ -4,7 +4,7 @@
 
 Computer and Network Security
 
-## NoSQL Injections for Rocket Chat
+## NoSQL Injections for Rocket Chat 3.12.1 on any Linux based system
 
 NoSQL Injection is a type of attack that targets NoSQL databases, which are a class of databases that use a different data model than traditional relational databases. 
 
